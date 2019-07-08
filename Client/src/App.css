@@ -1,0 +1,201 @@
+body {
+  color: #2c2c2c;
+  font-size: 14px;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+.navbar {
+  background-color: rgb(30, 32, 104);
+  color: white;
+}
+.admin, .UserInterface {
+  background: #ededed;
+  display: flex;
+  min-height: 100vh;
+  padding: 0;
+  color: rgb(30, 32, 104);
+  position: relative;
+}
+  
+.page-header {
+  background-image: url('./Images/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  max-height: 100%;
+  padding: 0;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.page-header .title {
+  margin-bottom: 15px; 
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-round {
+  border-width: 1px !important;
+  border-radius: 30px !important;
+  padding-right: 23px !important;
+  padding-left: 23px !important;
+}
+
+#linkB {
+color: white;
+text-decoration: underline;
+}
+
+.card {
+  background-color: rgba(229, 228, 255, 0.4)!important;
+  background-size: cover;
+  
+}
+
+
+.md-form{
+  position: relative;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.md-form input::placeholder{
+  color: black !important;
+}
+.form-control {
+  margin-left: 30px !important;
+  width: 90%!important;
+  background-color: transparent !important;
+  color: white!important;
+  border: none!important;
+  border-bottom: 1px solid #ced4da !important;
+}
+
+::placeholder { 
+  color: white !important;
+  opacity: 1; 
+}
+
+
+.prefix {
+  float: left;
+  top: .25rem;
+  font-size: 1.75rem !important;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: rgb(208, 203, 203) !important;
+}
+
+.footer .copyright {
+  font-size: 0.8571em;
+  line-height: 1.8; 
+
+}
+.vacations img {
+    max-width: 100%;
+    max-height: 100%;
+    
+
+}
+.card-image {
+  float: left;
+  width: 15rem!important;
+  height: 24rem!important;
+  margin: 10px 10px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+/* comment change color of top nav font for admin */
+.nav-link{
+  color: white;
+  text-align: center;
+}
+.nav-link:hover{
+  color: rgb(191, 189, 189);
+}
+
+.nav-link.disabled {
+  color: rgb(83,109,131,1) !important;
+}
+
+.navbar-brand {
+  color:white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color:white !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color:rgb(168, 165, 165) !important;
+}
+.price{
+  font-size: 28px;
+  font-weight: 700;
+}
+.top-right {
+  float: right!important;
+}
+.top-left {
+  float: left!important;
+}
+.modal input {
+  background-color: inherit;
+  border:0;
+  color: white;
+}
+
+.fa-edit, .fa-times {
+  color: black;
+}
+.fa-edit:hover, .fa-times:hover {
+  font-size: 22px;
+  color: yellow;
+}
+
+.fa-times, .fa-times {
+  color: black;
+}
+.fa-times:hover, .fa-times:hover {
+  font-size: 22px;
+  color: red;
+}
+
+.fa {
+  font-size: 18px;
+}
+
+.overlay{
+  background: linear-gradient(to top, rgba(33,37,41,0.9), rgba(255,255,255,0));
+  height: 100%;
+  width:100%;
+  position: relative;
+}
+
+.Add {
+  width: 70%;
+  margin: 40px auto;
+  
+}
+.adding {
+  color: black !important;
+}
+
+
+@media screen and (max-width: 420px) {
+  .vacation{
+    width: 95%!important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Add {
+    width: 100%;
+  }
+}
